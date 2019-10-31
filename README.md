@@ -28,20 +28,20 @@ https://aqueous-crag-29295.herokuapp.com/
 
 ## Local Setup
   ### Instructions:
-      1. Clone the GitHub repository
-      2. Go to the directory with the new repo  
-      3. Run `npm install`
-      4. create a `.env` file in root and add environment variables for sendgrid
-
-        SENDGRID_USERNAME=<YOUR_USERNAME>
-        SENDGRID_PASSWORD=<YOUR_PASSWORD>
-
-      5. To run the server: `npm start`
+1. Clone the GitHub repository
+2. Go to the directory with the new repo  
+3. Run `npm install`
+4. create a `.env` file in root and add environment variables for sendgrid
+```
+  SENDGRID_USERNAME=<YOUR_USERNAME>
+  SENDGRID_PASSWORD=<YOUR_PASSWORD>
+```
+5. To run the server: `npm start`
 
   ### Run tests:
-        1. Run `npm test`
-        2. To run a single test file: `npm test -- <file_name>`
-        3. To generate coverage report: `open coverage/lcov-report/index.html`
+1. Run `npm test`
+2. To run a single test file: `npm test -- <file_name>`
+3. To generate coverage report: `open coverage/lcov-report/index.html`
 
 ###  Interview Endpoint:
 
